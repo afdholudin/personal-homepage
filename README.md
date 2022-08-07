@@ -1,4 +1,3 @@
 # Personal Homepage
 
-This is my personal homepage source code that i use on afdholudin.com.
-I make it as simple as possible cause i still don't have an idea what i want to achieve.
+I create this branch so i can experimenting using Tailwindcss. It's easier to customize using Tailwindcss than Bootstrap.
