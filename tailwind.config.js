@@ -11,7 +11,10 @@ module.exports = {
         'secondary' : '#0378CC',
         'tertiary' : '#1DC8F0',
         'primary-dark': '#131718'
-      }
+      },
+      fontFamily: {
+        'sans': ['Inter'],
+      },
     },
   },
   plugins: [
