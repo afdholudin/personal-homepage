@@ -13,7 +13,7 @@ module.exports = {
         'primary-dark': '#131718'
       },
       fontFamily: {
-        'sans': ['Inter'],
+        'inter': ['Inter', 'sans-serif'],
       },
     },
   },
