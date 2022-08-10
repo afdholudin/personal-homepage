@@ -10,7 +10,8 @@ module.exports = {
         'primary' : '#048FF2',
         'secondary' : '#0378CC',
         'tertiary' : '#1DC8F0',
-        'primary-dark': '#131718'
+        'primary-dark': '#131718',
+        'second-sect': '#262225'
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],

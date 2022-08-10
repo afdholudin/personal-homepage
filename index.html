@@ -37,27 +37,52 @@
             </div>
           </div>
         </nav>
-      </header>
+    </header>
 
-      <!-- style="background-image: url('/img/hero-tiny.jpg');" -->
-      <div class="relative w-full mx-auto text-white">
-        <div class="h-96 sm:h-[640px] md:h-[720px] w-full bg-center bg-cover absolute" style="background-image: url('/img/hero-tiny.jpg');">
+    <div class="relative w-full text-white">
+      <div class="h-96 sm:h-[640px] md:h-[720px] w-full bg-center bg-cover absolute" style="background-image: url('/img/hero-tiny.jpg');">
           <!-- <div class="absolute w-full h-full bg-zinc-500 mix-blend-multiply">
           </div> -->
           
-        </div>
-        <div class="absolute h-auto mt-16 ml-10 w-72 sm:mt-32 lg:ml-44 md:w-[480px] sm:ml-20 sm:w-96">
+      </div>
+      <div class="absolute h-auto mt-16 ml-10 w-72 sm:mt-32 lg:ml-44 md:w-[480px] sm:ml-20 sm:w-96">
               <p class="mb-2 text-sm font-light md:text-base lg:text-lg sm:text-base">Hi There,</p>
               <p class="mb-2 text-4xl font-semibold md:text-6xl sm:tracking-tight sm:text-5xl">I am <span class="font-extrabold text-primary">Afdholudin</span></p>
               <p class="text-sm md:text-lg sm:text-base">I am web developer who likes backend more than frontend.</p>
-        </div>
-        <div class="absolute h-auto ml-10 mt-72 sm:mt-[480px] md:mt-[520px] lg:ml-44 w-44 sm:w-72 sm:ml-20 md:w-96">
+      </div>
+      <div class="absolute h-auto ml-10 mt-72 sm:mt-[480px] md:mt-[520px] lg:ml-44 w-44 sm:w-72 sm:ml-20 md:w-96">
           <p class="mb-2 text-sm font-light md:text-lg">Even so, i still can make decent design.</p>
           <a href="#" class="inline-flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium transition-all border border-transparent md:text-base bg-primary hover:bg-blue-600 focus:ring-2 focus:ring-blue-500">See My Work Below</a>
+      </div>
+    </div>
+    <!-- Home Section End -->
+
+    <!-- I've messed the layout with absolute position and i don't know what to do. This div below fix the problem though. -->
+    <!-- It make document flow back to normal (to what i expected) -->
+    <div class="w-full bg-gray-600 h-96 sm:h-[640px] md:h-[720px]"></div>
+    
+    <!-- Portofolio Section Start -->
+    <div class="w-full text-white bg-second-sect">
+      <div class="container w-full h-full px-4 mx-auto">
+        <div class="pt-10 pl-6 md:text-lg sm:pl-10 lg:text-2xl xl:text-3xl">
+          <p class="w-3/4">I just starting my career, so there is not much that i can show you now.</p>
+          <p class="pt-3 pb-6 xl:pt-10">Click the project name to see the details.</p>
+        </div>
+        <div class="flex flex-col pl-6 md:pl-0 md:flex-row">
+          <div class="w-full ml-0">
+            <img class="scale-[.85] md:scale-75" src="img/edata_crop.png" alt="edata">
+          </div>
+          <div class="md:pt-7 lg:pt-11 xl:pt-14">
+            <h2 class="text-xl font-semibold text-primary md:text-2xl lg:text-4xl xl:text-5xl">Edata</h2>
+            <p class="w-11/12 md:w-full md:text-lg lg:text-2xl lg:pt-2 xl:text-3xl">I made this app to store and manage OCR result from my custom made e-KTP reader.</p>
+            <p class="pt-3 pb-6 md:pt-6 md:text-lg lg:text-2xl xl:text-3xl">This is my final undergraduate project.</p>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- Portofolio Section End -->
 
-    <!-- Home Section End -->
+    </div>
     <script src="node_modules/preline/dist/hs-ui.bundle.js"></script>
 </body>
 </html>
